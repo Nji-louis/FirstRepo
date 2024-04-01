@@ -28,9 +28,9 @@ body{
 }
 div#header {
   width: 100%;
-  background-color: black;
+  background-color: lightgray;
   position: relative;
-  color: white;
+  color: black;
   text-align: center;
   left: 0;
   top: 0;
@@ -39,7 +39,7 @@ div#header {
 div#header h2 {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: 900;
-  color: white;
+  color: black;
   font-size: 2em; 
   margin-left: auto;
   margin-top: 1.5em;
@@ -62,7 +62,8 @@ div#navbar ul li {
   text-align: center;
   display: inline;
   float: left;
-  margin-right: 1.5em;
+  width: 22%;
+  margin-right: .5em;
 }
 div#navbar ul li a {
   font-family: Arial, Helvetica, sans-serif;
@@ -192,7 +193,8 @@ div#bar{
 }
 
 p.led{
-  text-align: center;
+  text-align: left;
+  margin-top: 1.5em;
 }
 div#nal{
   text-align: right;
